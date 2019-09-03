@@ -1,0 +1,190 @@
+/* 처음 로딩할 때 svg */
+
+
+/* carousel */
+
+.carousel_wrapper {
+    width: 100%;
+    height: 600px;
+    background: #000;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-inner {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-item img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* .content1 */
+
+.content1 {
+    width: 100%;
+    margin-top: 10em;
+    padding: 0 5em;
+}
+
+.row {
+    width: 100%;
+}
+
+.content_inner {
+    margin: 20px;
+    /* border: 1px solid #ddd; */
+    height: 30em;
+}
+
+.content_inner p {
+    font-weight: bold;
+}
+
+.notice {
+    height: 100%;
+}
+
+.notice p,
+.schedule p,
+.q_and_a p {
+    font-size: 1.4em;
+    border-bottom: 3px solid #8283a7;
+    padding-bottom: 10px;
+}
+
+.more {
+    font-size: 0.5em;
+    text-align: right;
+    display: block;
+}
+
+.more a {
+    vertical-align: bottom;
+}
+
+.content_list {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.q_and_a .content_list {
+    font-size: 1.2em;
+}
+
+.card {
+    font-size: 0.9em;
+}
+
+.card-header {
+    padding: 0;
+}
+
+.card-header h2 {
+    font-size: 2.8em;
+}
+
+.card-body {
+    font-size: 1.4em;
+}
+
+.card-header h2 button {
+    color: #000;
+    font-size: 0.45em;
+}
+
+.media-body {
+    margin: 4px 0;
+}
+
+.media-body h5 {
+    font-size: 0.95em;
+}
+
+
+/*menusidebar*/
+
+.logoimg {
+    height: 3em;
+    width: 3em;
+}
+
+#page-wrapper {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    background: white;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    padding: 20px;
+}
+
+
+/* 사이드바 스타일 */
+
+.sidebar-nav {
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    text-indent: 1.5em;
+    line-height: 2.8em;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-nav li a:hover {
+    color: black;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.sidebar-nav>.sidebar-brand {
+    font-size: 1.3em;
+    line-height: 3em;
+}
+
+/* footer */
+.footerWrapper {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background: #8283a7;
+    padding: 0;
+    margin: 0;
+    margin-top: 9em;
+}
+
+.footerWrapper p {
+    color: #fff;
+    line-height: 50px;
+    margin: 0;
+    font-size: 0.9em;
+}

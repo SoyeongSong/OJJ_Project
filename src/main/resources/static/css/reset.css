@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+html{
+    font-size: 0.625em;
+}
+
+body{
+    font: 1.2rem/1.6 Arial, sans-serif;
+    color: #555;
+}
+
+.wrap {
+    width: 100%;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+}
